@@ -12,7 +12,7 @@ As a student, I had this problem:
 
 - PDFs are long and boring to search through manually
 - Google gives general answers — not answers **from my specific notes**
-- Diagrams and figures in PDFs are completely ignored by normal chatbots
+- Normal chatbots completely ignore diagrams and figures in PDFs
 
 So I thought:
 
@@ -194,4 +194,4 @@ ai-tutor/
 
 **Aditya Pawar** — Learning AI engineering by building real projects, not just tutorials.
 
-> This project taught me: RAG, LangGraph, Vision AI, API rate limiting, Windows encoding bugs, and how to push code to GitHub even when `git` isn't in PATH. 😄
+> This project taught me: RAG, LangGraph, Vision AI, API rate limiting, Windows encoding bugs, and most importantly, learning and implementing.
