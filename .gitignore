@@ -1,0 +1,45 @@
+# ===========================
+# VIDYA — AI Knowledge Person
+# .gitignore
+# ===========================
+
+# --- Secrets (NEVER push these) ---
+.env
+*.key
+*.pem
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.venv/
+ENV/
+
+# --- ChromaDB (local vector store, too large for GitHub) ---
+chroma_db/
+
+# --- Data files (PDFs can be large) ---
+data/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Jupyter ---
+.ipynb_checkpoints/

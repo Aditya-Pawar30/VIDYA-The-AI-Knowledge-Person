@@ -1,0 +1,12 @@
+pypdf>=4.0.0
+python-dotenv>=1.0.0
+sentence-transformers>=2.2.2
+chromadb
+groq
+langgraph
+langchain-core
+duckduckgo-search>=6.0.0
+
+byaldi
+google-genai
+PyMuPDF
