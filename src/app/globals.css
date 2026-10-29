@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #4edea3;
+  --color-primary-container: #10b981;
+  --color-primary-fixed: #6ffbbe;
+  --color-primary-fixed-dim: #4edea3;
+  --color-on-primary: #003824;
+  --color-on-primary-container: #00422b;
+  --color-on-primary-fixed: #002113;
+
+  --color-secondary: #45dfa4;
+  --color-secondary-container: #00bd85;
+  --color-secondary-fixed: #68fcbf;
+  --color-on-secondary: #003825;
+
+  --color-tertiary: #68dba9;
+  --color-tertiary-container: #3eb686;
+  --color-tertiary-fixed: #85f8c4;
+  --color-on-tertiary: #003825;
+
+  --color-surface: #101417;
+  --color-surface-dim: #101417;
+  --color-surface-bright: #363a3d;
+  --color-surface-container-lowest: #0b0f12;
+  --color-surface-container-low: #181c1f;
+  --color-surface-container: #1c2023;
+  --color-surface-container-high: #262a2e;
+  --color-surface-container-highest: #313539;
+
+  --color-on-surface: #e0e3e7;
+  --color-on-surface-variant: #bbcabf;
+  --color-outline: #86948a;
+  --color-outline-variant: #3c4a42;
+  --color-error: #ffb4ab;
+
+  --font-headline: "Plus Jakarta Sans", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+:root {
+  --background: #101417;
+  --foreground: #e0e3e7;
+}
+
+body {
+  background-color: #101417;
+  color: #e0e3e7;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+/* Material Symbols styling */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+/* Custom discreet scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(78, 222, 163, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(78, 222, 163, 0.45);
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 16px -2px rgba(16, 185, 129, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 28px 4px rgba(16, 185, 129, 0.6);
+  }
+}
+
+.glow-emerald {
+  animation: pulseGlow 3.5s infinite ease-in-out;
+}
